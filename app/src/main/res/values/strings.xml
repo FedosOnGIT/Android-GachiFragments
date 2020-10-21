@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Work with Fragments</string>
+    <string name="deep_and_dark">deep and dark</string>
+    <string name="sorry_for_what">sorry for what</string>
+    <string name="let_s_celebrate">let\'s celebrate</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="van_darkholme">Van Darkholme</string>
+    <string name="oh_shit">oh shit</string>
+    <string name="without_further_interruption">without further interruption</string>
+    <string name="count_0">count :0</string>
+</resources>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/van_darkholme"
+    app:startDestination="@id/deepDark">
+
+    <fragment
+        android:id="@+id/deepDark"
+        android:name="com.example.workwithfragments.fragments.DeepDark"
+        android:label="fragment_deep_dark"
+        tools:layout="@layout/fragment_deep_dark" >
+        <action
+            android:id="@+id/action_deepDark_self"
+            app:destination="@id/deepDark" />
+        <argument
+            android:name = "count"
+            android:defaultValue="0"
+            app:argType = "integer"/>
+    </fragment>
+</navigation>

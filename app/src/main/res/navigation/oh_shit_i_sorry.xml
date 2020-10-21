@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/oh_shit"
+    app:startDestination="@id/ohShit">
+
+    <fragment
+        android:id="@+id/ohShit"
+        android:name="com.example.workwithfragments.fragments.OhShit"
+        android:label="fragment_oh_shit"
+        tools:layout="@layout/fragment_oh_shit" >
+        <argument
+            android:name = "count"
+            android:defaultValue="0"
+            app:argType = "integer"
+            />
+        <action
+            android:id="@+id/action_ohShit_self"
+            app:destination="@id/ohShit" />
+    </fragment>
+</navigation>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/celebrate"
+    app:startDestination="@id/letsCelebrate">
+
+    <fragment
+        android:id="@+id/letsCelebrate"
+        android:name="com.example.workwithfragments.fragments.LetsCelebrate"
+        android:label="fragment_lets_celebrate"
+        tools:layout="@layout/fragment_lets_celebrate" >
+        <argument
+            android:name = "count"
+            android:defaultValue="0"
+            app:argType = "integer"
+            />
+        <action
+            android:id="@+id/action_letsCelebrate_self"
+            app:destination="@id/letsCelebrate" />
+    </fragment>
+</navigation>
