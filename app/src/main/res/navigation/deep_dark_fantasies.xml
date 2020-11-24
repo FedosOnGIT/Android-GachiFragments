@@ -12,7 +12,11 @@
         tools:layout="@layout/fragment_deep_dark" >
         <action
             android:id="@+id/action_deepDark_self"
-            app:destination="@id/deepDark" />
+            app:destination="@id/deepDark"
+            app:enterAnim="@android:anim/fade_in"
+            app:exitAnim="@android:anim/fade_out"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_exit_anim" />
         <argument
             android:name = "count"
             android:defaultValue="0"
